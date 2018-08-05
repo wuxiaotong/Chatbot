@@ -1,0 +1,222 @@
+html, body {
+  position: relative;
+  background-color: #281e65;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+ul,li{ margin:0; padding:0; list-style:none; }  
+
+
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgb(238, 0, 118), #3b5998);
+    border-radius: 10px;
+    padding: 10px;
+  height: 400px;
+  width: 70%;
+  margin: auto;
+
+}
+.list-dot {
+    float: left;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    display: block;
+    background: white;
+    margin: 5px 2px;
+}
+.dot-first {
+  animation: dotfirst 2s;
+  animation-iteration-count: infinite;
+  -moz-animation: dotfirst 2s; /* Firefox */
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation: dotfirst 2s;  /* Safari 和 Chrome */
+  -webkit-animation-iteration-count: infinite;
+  -o-animation: dotfirst 2s; /* Opera */
+  -o-animation-iteration-count: infinite;
+}
+
+.dot-second {
+  animation: dotsecond 2s;
+  animation-iteration-count: infinite;
+  -moz-animation: dotsecond 2s; /* Firefox */
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation: dotsecond 2s;  /* Safari 和 Chrome */
+  -webkit-animation-iteration-count: infinite;
+  -o-animation: dotsecond 2s; /* Opera */
+  -o-animation-iteration-count: infinite;
+}
+
+.dot-third {
+  animation: dotthird 2s;
+  animation-iteration-count: infinite;  
+  -moz-animation: dotthird 2s; /* Firefox */
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation: dotthird 2s;  /* Safari 和 Chrome */
+  -webkit-animation-iteration-count: infinite;
+  -o-animation: dotthird 2s; /* Opera */
+  -o-animation-iteration-count: infinite;
+}
+
+.list-item {
+  position: relative;
+  margin: 10px 0;
+  width: 100%;
+  float: left;
+}
+.list-user-corner {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 12px solid white;
+    border-bottom: 7px solid transparent;
+    transform: rotate(102deg);
+}
+.list-user-item {
+  color: rgb(69, 33, 98);
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+    max-width: 250px;
+}
+.list-bot-item {
+  color: whilte;
+    overflow: hidden;
+    background-color: rgb(238, 0, 118);
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+}
+/*.list-user-item::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    border-top: 7px white;
+    left: 0;
+    transform: rotate(20deg);
+    border-right: 7px solid transparent;
+}
+*/
+.list-bot-item::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    border-top: 7px solid rgb(238, 0, 118);
+    left: 0;
+    transform: rotate(20deg);
+    border-right: 7px solid transparent;
+}
+.form-control {
+  width: 80%;
+    height: 30px;
+}
+.btn {
+  width: 10%;
+    height: 30px;
+    border-radius: 10px;
+}
+.list-group {
+  height: 250px;
+  max-height: 250px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+
+@keyframes dotfirst
+{
+25%   {opacity: 1;}
+50%  {opacity: 0.5;}
+100% {opacity: 0.5;}
+}
+
+@-moz-keyframes dotfirst /* Firefox */
+{
+0  {opacity: 0.5;}
+25%   {opacity: 1;}
+50%  {opacity: 0.5;}
+100% {opacity: 0.5;}
+}
+
+@-webkit-keyframes dotfirst /* Safari 和 Chrome */
+{
+0  {opacity: 0.5;}
+25%   {opacity: 1;}
+50%  {opacity: 0.5;}
+100% {opacity: 0.5;}
+}
+
+@-o-keyframes dotfirst /* Opera */
+{
+25%   {opacity: 1;}
+50%  {opacity: 0.5;}
+100% {opacity: 0.5;}
+}
+
+@keyframes dotsecond
+{
+0%   {opacity: 0.5;}
+50%  {opacity: 1;}
+100% {opacity: 0.5;}
+}
+
+@-moz-keyframes dotsecond /* Firefox */
+{
+0%   {opacity: 0.5;}
+50%  {opacity: 1;}
+100% {opacity: 0.5;}
+}
+
+@-webkit-keyframes dotsecond /* Safari 和 Chrome */
+{
+00%   {opacity: 0.5;}
+50%  {opacity: 1;}
+100% {opacity: 0.5;}
+}
+
+@-o-keyframes dotsecond /* Opera */
+{
+0%   {opacity: 0.5;}
+50%  {opacity: 1;}
+100% {opacity: 0.5;}
+}
+
+
+@keyframes dotthird
+{
+0%   {opacity: 0.5;}
+50%  {opacity: 0.5;}
+100% {opacity: 1;}
+}
+
+@-moz-keyframes dotthird /* Firefox */
+{
+0%   {opacity: 0.5;}
+50%  {opacity: 0.5;}
+100% {opacity: 1;}
+}
+
+@-webkit-keyframes dotthird /* Safari 和 Chrome */
+{
+0%   {opacity: 0.5;}
+50%  {opacity: 0.5;}
+75% {opacity: 1;}
+}
+
+@-o-keyframes dotthird /* Opera */
+{
+0%   {opacity: 0.5;}
+50%  {opacity: 0.5;}
+75% {opacity: 1;}
+}
