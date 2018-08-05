@@ -17,3 +17,12 @@ the chatbot can do calculation and greeting, and it also can 'guide the users to
 
 <h3><b>NLP part:</b></h3>
 It is located in the directory 'backend/backend/tfidfAdapter.py'. I use the tfidf model and cosine similarity to decide the result. I also add other methods to calculate the similarity but not add in the result.
+
+<h3><b>Third Version:</b></h3>
+Add different models in the directory 'backend/backend/jupyter-model/'.</br>
+Put all the adapter in the directory 'backend/backend/adapter'</br>
+The follows are the description of the models in the directory 'backend/backend/jupyter-model/':</br>
+1.'document_similarity': build different models including LDA, TFIDF, LSI, DOC2VEC, DIFFLIB for compare the document similarity.</br>
+2.'baseline_model': a simple classification model for detecting whther the questions and answers are matched.</br>
+3.'test_cnn_model': a cnn model for ranking the answers.</br>
+4.'similarity_model': a feature-based model for detecting whether the questions and answers are matched. The model is also used to rank the answers.
