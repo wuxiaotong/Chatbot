@@ -34,34 +34,30 @@ def splitWordByLibrary(documents):
 
  
 def preprocess():    
-	train_doc_question = pd.read_csv('../data/FiQA_train_question_doc_final.tsv', sep='\t')
-	train_question = pd.read_csv('../data/FiQA_train_question_final.tsv', sep='\t')
-	train_doc = pd.read_csv('../data/FiQA_train_doc_final.tsv', sep='\t')
+    train_doc_question = pd.read_csv('../data/FiQA_train_question_doc_final.tsv', sep='\t')
+    train_question = pd.read_csv('../data/FiQA_train_question_final.tsv', sep='\t')
+    train_doc = pd.read_csv('../data/FiQA_train_doc_final.tsv', sep='\t')
 
-	qdic = train_question.set_index('qid').T.to_dict('list')
-	docdic = train_doc.set_index('docid').T.to_dict('list')
+    qdic = train_question.set_index('qid').T.to_dict('list')
+    docdic = train_doc.set_index('docid').T.to_dict('list')
 
-	question_id_list = train_doc_question['qid']
-	doc_id_list = train_doc_question['docid']
+    question_id_list = train_doc_question['qid']
+    doc_id_list = train_doc_question['docid']
 
-	questions = []
-	docs = []
+    questions = []
+    docs = []
 
-	for i in range(0, len(question_id_list)):
-		# question = train_question[train_question.qid == question_id_list[i]]['question'].values[0]
-		# doc = train_doc[train_doc.docid == doc_id_list[i]]['doc'].values[0]
-		question = qdic[question_id_list[i]][1]
-		doc = docdic[doc_id_list[i]][1]
-		questions.append(question)
-		docs.append(doc)
+    for i in range(0, len(question_id_list)):
+        # question = train_question[train_question.qid == question_id_list[i]]['question'].values[0]
+        # doc = train_doc[train_doc.docid == doc_id_list[i]]['doc'].values[0]
+        question = qdic[question_id_list[i]][1]
+        doc = docdic[doc_id_list[i]][1]
+        questions.append(question)
+        docs.append(doc)
 
-	print(len(questions))
-	print(len(docs))
-	texts = np.hstack((questions,docs))
-	texts = splitWordByLibrary(texts)
-	print(len(texts))
-	dictionary = corpora.Dictionary(texts)
-	corpus = [dictionary.doc2bow(text) for text in texts]
-	print(len(corpus))
+    texts = np.hstack((questions,docs))
+    texts = splitWordByLibrary(texts)
+    dictionary = corpora.Dictionary(texts)
+    corpus = [dictionary.doc2bow(text) for text in texts]
 
 preprocess()
