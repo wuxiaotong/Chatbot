@@ -137,6 +137,7 @@ class TfIdfAdapter(LogicAdapter):
         Return true if the input statement contains the tags
         """
         statement.text = statement.text.translate(str.maketrans('','',string.punctuation))
+        #add the tags for different flows here
         tags =  [['finTech', 'financial', 'finance'], ['regTech','regulations','regulation'], ['debt', 'coinselling', 'broking', 'credit', 'references', 'lending', 'peer', 'CCL', 'consumer']]
         for tag in tags:
             for x in tag:
@@ -152,16 +153,14 @@ class TfIdfAdapter(LogicAdapter):
         from chatterbot.conversation import Statement
          #remove punctuation
         statement.text = statement.text.translate(str.maketrans('','',string.punctuation))
-        print('process')
         confidence = 1
+        #add the response for different flow.
         response_list = ['you can go to the finTech page', 'you can go to the regTech page', 'you can go to the consumer credit page']
         index = self.tfidf_model(statement)
        
-        print(statement.text)
 
         selected_statement = Statement(response_list[index])
         selected_statement.confidence = 1
-        print(selected_statement)
 
         return selected_statement
 
