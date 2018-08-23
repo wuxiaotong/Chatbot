@@ -40,12 +40,13 @@ CHATTERBOT = {
         # 'chatterbot.corpus.english.food'
     ],
     'logic_adapters': [
-        {'import_path': 'backend.adapter.tfidfAdapter.TfIdfAdapter'},
+        # {'import_path': 'backend.adapter.tfidfAdapter.TfIdfAdapter'},
+        {'import_path': 'backend.adapter.DocumentSimialrityAdapter.DocumentSimialrityAdapter'},
         # 'chatterbot.logic.MathematicalEvaluation',
-        'chatterbot.logic.BestMatch',
-        {'import_path': 'chatterbot.logic.LowConfidenceAdapter',
-            'threshold': 0.5,
-            'default_response': 'I am sorry, but I do not understand.'}
+        # 'chatterbot.logic.BestMatch',
+        # {'import_path': 'chatterbot.logic.LowConfidenceAdapter',
+        #     'threshold': 0.5,
+        #     'default_response': 'I am sorry, but I do not understand.'}
     ],
     'django_app_name': 'django_chatterbot'
 }
