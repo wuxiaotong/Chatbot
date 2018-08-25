@@ -43,7 +43,7 @@ CHATTERBOT = {
         # {'import_path': 'backend.adapter.tfidfAdapter.TfIdfAdapter'},
         {'import_path': 'backend.adapter.DocumentSimialrityAdapter.DocumentSimialrityAdapter'},
         # 'chatterbot.logic.MathematicalEvaluation',
-        # 'chatterbot.logic.BestMatch',
+        'chatterbot.logic.BestMatch',
         # {'import_path': 'chatterbot.logic.LowConfidenceAdapter',
         #     'threshold': 0.5,
         #     'default_response': 'I am sorry, but I do not understand.'}

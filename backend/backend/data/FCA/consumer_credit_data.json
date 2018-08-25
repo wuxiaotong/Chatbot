@@ -1,0 +1,1343 @@
+{ 
+    "_class" : "com.regulation.flow.Flow", 
+    "name" : "Consumer Credit Questionnaire", 
+    "startMultinodeId" : "mul762", 
+    "internalComment" : "", 
+    "externalComment" : "Do I need to apply for consumer credit authorisation?", 
+    "multinodes" : [
+        {
+            "_id" : "mul762", 
+            "internalComment" : "StartNode for flow123"
+        }, 
+        {
+            "_id" : "mul763", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul764", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul765", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul766", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul767", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul768", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul769", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul770", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul771", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul772", 
+            "internalComment" : "empty"
+        }, 
+        {
+            "_id" : "mul773", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul774", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul775", 
+            "internalComment" : "NOTE: THIS SHOULD LEAD TO A NEW FLOW FOR NOT FOR PROFIT"
+        }, 
+        {
+            "_id" : "mul776", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul777", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul778", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul779", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul780", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul781", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul782", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul783", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul784", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul785", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul786", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul787", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul788", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul789", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul790", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul791", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul792", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul793", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul794", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul795", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul796", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul797", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul799", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "mul1032", 
+            "internalComment" : ""
+        }
+    ], 
+    "questions" : [
+        {
+            "_id" : "que828", 
+            "label" : "Do you provide credit to individuals?", 
+            "externalComment" : "Credit includes a cash loan and any other form of financial accommodation. If you would like to see more details about the constituent elements of 'credit', please click HERE for detailed advice.", 
+            "tip" : "If your main activity is the supply of goods and services, and you also provide credit to your customers to buy goods from you, this is a form of credit agreement. You should therefore click 'yes'.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que829", 
+            "label" : "Are your customers high net worth individuals only?", 
+            "externalComment" : "If you provide loans to 'high net worth individuals' only, you will not need to apply for authorisation. Consider whether this is an option for your business.\nNote: If your customers are ‘high net worth individuals’ you will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "internalComment" : "This question is eliminating 60H RAO"
+        }, 
+        {
+            "_id" : "que830", 
+            "label" : "Are you a not for profit organisation?", 
+            "externalComment" : "A not-for-profit body is one which, by virtue of its constitution or any enactment:\n(1) is required (after payment of outgoings) to apply the whole of its income, and any capital which it expends, for charitable or public purposes, and \n(2) is prohibited from directly or indirectly distributing amongst its members any part of its assets (otherwise than for charitable or public purposes).", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que831", 
+            "label" : "Do you deal with Consumer Clients 'by way of business'?", 
+            "externalComment" : "The expression 'by way of business' means that you conduct this activity regularly. If you intend to provide a loan to an individual once for example, you will not need to be authorised. If you are not sure how this applies to you, please click HERE to find out more. ", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que832", 
+            "label" : "Is the credit less than £25,000 AND a Green Deal Plan?", 
+            "externalComment" : "Click HERE to find out what the Green Deal Plan is. ", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que833", 
+            "label" : "Is the credit more than £25,000 AND provided to the borrower for the purposes of his business activities?", 
+            "externalComment" : "If the credit is provided to your customer 'predominantly' for the purpose of his business (but not exclusively, please also click 'yes'.", 
+            "internalComment" : "ROA 60C(3)"
+        }, 
+        {
+            "_id" : "que834", 
+            "label" : "<p><strong>Do you deal with Consumer Clients?</strong></p>", 
+            "externalComment" : "<p>A consumer client is an individual whose habitual residence is in the UK. Click HERE for more information. The term 'deal' is used here in a very broad sense. It refers to providing lending services, other credit related services, debt services related to credit agreements, credit referencing services, peer to peer lending platforms which relate to consumer credit agreements and more. If you are not sure if you deal with consumer clients, please click 'yes' so you can confirm this by completing this questionnaire.</p>", 
+            "tip" : "<p>Whether you need a consumer credit license or not depends on who your customers are. if your customers are NOT consumers, for example if they are companies and you regularly provide them with loans, then you should take our intermediary questionnaire to check if you need to apply for another license. Please click HERE to take the intermediary questionnaire. Please note that where you are based has no impact on whether you should apply for a license or not. For the purposes of this analysis, it is the location of your customers that matters.</p>", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que835", 
+            "label" : "Is the loan provided to an individual in connection with a dwelling and secured by a mortgage on the land?", 
+            "externalComment" : "Please click HERE to see what conditions apply.", 
+            "internalComment" : "This is to eliminate 60D"
+        }, 
+        {
+            "_id" : "que836", 
+            "label" : "Is the credit provided to your customer so he can purchase land for non residential purposes?", 
+            "externalComment" : "Before answering the question, click HERE to (watch a video)(read advice) which explains what this means as the question does not relate to all purchases of land.", 
+            "internalComment" : "60D"
+        }, 
+        {
+            "_id" : "que837", 
+            "label" : "Is the credit provided to your customer for his business AND in connection with trade in goods and services with persons outside of the UK?", 
+            "externalComment" : "The location of the customer of your customer is key to answering this question. If your customer sells goods from the UK to Germany, click 'yes'. If he is a consultant who advises clients who are outside of the UK, please also click 'yes'. If, however, he sells goods (such as children toys) to people in the UK as well as to people outside of the UK, then click 'no'.", 
+            "internalComment" : "60C(8)"
+        }, 
+        {
+            "_id" : "que838", 
+            "label" : "Are you an investment firm or a credit institution AND the agreement is entered into for the purpose of allowing the borrower to carry out a transaction relating to one or more financial instruments?", 
+            "externalComment" : "", 
+            "internalComment" : "60E(6)"
+        }, 
+        {
+            "_id" : "que839", 
+            "label" : "Are you a local authority or a 'Specified Person'?", 
+            "externalComment" : "Click HERE to check if you are a housing authority or specified person.", 
+            "internalComment" : "60E(2)"
+        }, 
+        {
+            "_id" : "que840", 
+            "label" : "Are you a housing authority?", 
+            "externalComment" : "Click HERE to check if you are a housing authority. ", 
+            "internalComment" : "60E(5)"
+        }, 
+        {
+            "_id" : "que841", 
+            "label" : "Is the loan provided to the customer in connection with a dwelling and secured by a mortgage on land?", 
+            "externalComment" : "Before you answer the question, click HERE to see what conditions apply.", 
+            "internalComment" : "60E(5)"
+        }, 
+        {
+            "_id" : "que842", 
+            "label" : "Is the agreement a borrower lender supplier agreement?", 
+            "externalComment" : "A borrower lender supplier agreement is a credit (or loan) agreement where on person (A) lends to another person (B) and amount of money in connection with the supply of goods (whether by (A) or another person).", 
+            "internalComment" : "60F"
+        }, 
+        {
+            "_id" : "que843", 
+            "label" : "If the agreement is one of those listed in this short video (or pop up list), please click 'yes' otherwise click 'no'", 
+            "externalComment" : "", 
+            "internalComment" : "60F exemptions relating to number of repayments to be made"
+        }, 
+        {
+            "_id" : "que844", 
+            "label" : "If the agreement is one of those listed in this short video (or pop up list), please click 'yes' otherwise click 'no'", 
+            "externalComment" : "", 
+            "internalComment" : "60G exemptions relating to the total charge for credit"
+        }, 
+        {
+            "_id" : "que845", 
+            "label" : "Does the value of the contract exceed £25,000 AND is it provided to the hirer predominantly for the purposes of his business?", 
+            "externalComment" : "", 
+            "internalComment" : "60O"
+        }, 
+        {
+            "_id" : "que846", 
+            "label" : "Do you operate an electronic system in relation to lending (such as a peer-to-peer lending platform)?", 
+            "externalComment" : "Please click ‘yes’ if the platform facilitates the entry of 2 individuals (one as a borrower and one as a lender) into these types of agreements (click here to watch video/view list). Otherwise, click ‘no’.", 
+            "internalComment" : "36H"
+        }, 
+        {
+            "_id" : "que847", 
+            "label" : "Do you act as appointed representative for an authorised firm?", 
+            "externalComment" : "If you are appointed by a person who is authorised by the FCA to represent that person you may be exempt. If you have a written agreement with the authorised firm and meet the conditions listed HERE, click 'yes'. Otherwise, click 'no'.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que848", 
+            "label" : "Do you enter into consumer hire agreements with individuals?", 
+            "externalComment" : "A consumer hire agreement is an agreement between you as owner and another person as hirer of goods AND which is for a duration of more than 3 months. The goods should be in the possession of the hirer. This agreement is not to be confused with a ‘hire-purchase agreement’ where the hirer has the option or ability to buy the goods. NOTE: If you exercise the rights of an owner, you are also deemed to be entering into a consumer hire agreement and should click ‘yes’.", 
+            "internalComment" : "60N to Q"
+        }, 
+        {
+            "_id" : "que849", 
+            "label" : "Is your customer a 'high net worth' individual?", 
+            "externalComment" : "Note: If your customers are ‘high net worth individuals’ you will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "internalComment" : "60Q"
+        }, 
+        {
+            "_id" : "que850", 
+            "label" : "Do you carry on the activities of debt adjusting?", 
+            "externalComment" : "Please click ‘yes’ if you assist another person to (1) liquidate their credit agreement or their hire agreement, or (2) if you take over this agreement from them (for a fee) or (3) if you negotiate on their behalf with the lender or the owner with the aim of discharging the debt. Otherwise, click ‘no’.", 
+            "internalComment" : "39D"
+        }, 
+        {
+            "_id" : "que852", 
+            "label" : "Do you carry on the activity of debt counselling?", 
+            "externalComment" : "Please click ‘yes’ if you advise another person on how to liquidate their credit agreement or their hire agreement. Otherwise, click ‘no’.", 
+            "internalComment" : "39E"
+        }, 
+        {
+            "_id" : "que853", 
+            "label" : "Do you carry on the activity of debt collecting?", 
+            "externalComment" : "Please click ‘yes’ if you take steps that lead to the payment of a debt under a credit agreement or a hire agreement or any of the agreements listed in this list (add link), Otherwise, click ‘no’.", 
+            "internalComment" : "39F"
+        }, 
+        {
+            "_id" : "que854", 
+            "label" : "Do you carry on the activity of debt administration?", 
+            "externalComment" : "Please click ‘yes’ if you take steps to (1) perform the duties of a lender or an owner or (2) exercise or enforce the rights of a lender or an owner under a credit agreement or a hire agreement or any of the agreements listed in this list (add link), Otherwise, click ‘no’.", 
+            "internalComment" : "39G"
+        }, 
+        {
+            "_id" : "que855", 
+            "label" : "Are your agreements secured by a legal mortgage on land?", 
+            "externalComment" : "", 
+            "internalComment" : "check where in RAO this comes from? it's in Credit Ready. q15."
+        }, 
+        {
+            "_id" : "que856", 
+            "label" : "Do you provide credit references?", 
+            "externalComment" : "", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que857", 
+            "label" : "Do you provide credit information services?", 
+            "externalComment" : "", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que858", 
+            "label" : "Do you already have another Limited Permission AND only provide credit information services in connection with this Limited Permission?", 
+            "externalComment" : "If the performance of credit information activities is incidental or only connected to the carrying on of another Limited Permission, then you will not need to increase your license from Limited to Full.", 
+            "internalComment" : "check ROA. q 32, credit ready"
+        }, 
+        {
+            "_id" : "que859", 
+            "label" : "Is your main business activity to sell goods or supply services and not to carry on a regulated activity?", 
+            "externalComment" : "", 
+            "internalComment" : "credit ready q.4"
+        }, 
+        {
+            "_id" : "que860", 
+            "label" : "a. Do you charge any money to borrowers in connection with the provision of credit – including interest payments and other charges?\n\nb. Is the obligation to repay secured by a legal mortgage on land?\n\nc. Are your agreements ever hire purchase or conditional sale agreements?", 
+            "externalComment" : "If you answer ‘yes’ to any of these question, then please click ‘yes'. Otherwise click ‘no’ ", 
+            "tip" : "A ‘hire-purchase agreement’ is an agreement between you as owner and another person as hirer of goods where the hirer has the option or ability to buy the goods. The goods should be in the possession of the hirer. This agreement is not to be confused with a consumer hire agreement which is also an agreement between you as owner and another person as hirer of goods BUT which does not give the hirer the option to purchase the goods.", 
+            "internalComment" : "credit ready q.5"
+        }, 
+        {
+            "_id" : "que861", 
+            "label" : "Do you engage in credit broking (for example, do you introduce customers to a finance or leasing company)?", 
+            "externalComment" : "Not all credit agreements are regulated. This means that if you are providing credit broking services in respect of a credit agreement that is exempt, you may also be exempt from authorisation. Click HERE to view a short video about exempt credit agreements.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "que862", 
+            "label" : "Are any agreements to repay ever secured by a legal mortgage on land?", 
+            "externalComment" : "", 
+            "internalComment" : "credit ready q.19"
+        }, 
+        {
+            "_id" : "que863", 
+            "label" : "If you answer ‘no’ to ALL of the below, then pls click ‘no'. Otherwise click ‘yes’ a. Do you carry on credit broking in relation to Green Deal Plans?  b. Do you carry on credit broking in relation to consumer hire or hire purchase agreements? c. Do you carry on broking for the purposes of, or in connection with, the sale of goods or supply of services by you?", 
+            "externalComment" : "Please note that a hire purchase agreement is a credit agreement, not a hire agreement.", 
+            "tip" : "", 
+            "internalComment" : "credit ready q.18, 22 and 26"
+        }, 
+        {
+            "_id" : "que864", 
+            "label" : "If the ONLY credit broking you carry on is in relation to Green Deal Plans, please click ‘yes’. Otherwise, click ‘no’.", 
+            "externalComment" : "Click HERE to view a short video explaining what a Green Plan is.", 
+            "internalComment" : "credit ready q. 18 to 20 inclusively"
+        }, 
+        {
+            "_id" : "que1020", 
+            "label" : "Is the credit agreement a 'regulated mortgage contract' or a 'regulated home purchase plan'?", 
+            "externalComment" : "Please click HERE to see (a short video)(detailed advice) explaining what these terms mean. ", 
+            "tip" : "It is very important that you understand the difference between these agreements and other credit agreements as if this applies to you, you may be exempt.", 
+            "internalComment" : "60C(2) ROA"
+        }, 
+        {
+            "_id" : "que1058", 
+            "label" : "Are the loans you provide to your customers for the purposes of financing the purchase of a dwelling and secured by a mortgage on land?", 
+            "externalComment" : "Please click HERE to (watch this video) and click 'yes' if ANY of the credit agreements you enter into with your customers are mentioned or listed in the video. ", 
+            "tip" : "", 
+            "internalComment" : "60E"
+        }, 
+        {
+            "_id" : "que1059", 
+            "label" : "que1058", 
+            "externalComment" : "yes", 
+            "tip" : "", 
+            "internalComment" : "adv7"
+        }, 
+        {
+            "_id" : "que1060", 
+            "label" : "Are you a credit union?", 
+            "externalComment" : "Click HERE to check if you are a credit union.", 
+            "tip" : "", 
+            "internalComment" : "60G(2)"
+        }, 
+        {
+            "_id" : "que1061", 
+            "label" : "If you are a credit union, a the credit agreements you enter into with your customers are those listed in this video, please click 'yes'. Otherwise click 'no'.", 
+            "externalComment" : "Please click HERE to view a short video."
+        }, 
+        {
+            "_id" : "que1062", 
+            "label" : "Do you enter into any of the credit agreements shown in this video with your customers?", 
+            "externalComment" : "Please click HERE to watch a short video about the types of agreements which are exempt. If you enter into these agreements with your customers, click 'yes'. Otherwise, click 'no'. ", 
+            "tip" : "", 
+            "internalComment" : "60G(3), (5) and (8)"
+        }, 
+        {
+            "_id" : "que1063", 
+            "label" : "mul780", 
+            "externalComment" : ".", 
+            "tip" : "", 
+            "internalComment" : "que829"
+        }
+    ], 
+    "licences" : [
+        {
+            "_id" : "lic543", 
+            "label" : "This activity is exempted. You will not need to be authorised. However, you will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "internalComment" : "This should stop the flow"
+        }, 
+        {
+            "_id" : "lic544", 
+            "label" : "If you are only dealing with consumer clients on an exceptional basis, you will not need to be authorised. ", 
+            "internalComment" : "THIS SHOULD STOP THE FLOW"
+        }, 
+        {
+            "_id" : "lic545", 
+            "label" : "If you deal with, or provide services to persons who are not Consumer Clients, you may be conducting a regulated activity and need to apply for authorisation. Please click HERE to take our Intermediary Questionnaire", 
+            "internalComment" : "THIS SHOULD END THE FLOW"
+        }, 
+        {
+            "_id" : "lic546", 
+            "label" : "This activity is exempted. You do not need to be authorised. "
+        }, 
+        {
+            "_id" : "lic547", 
+            "label" : "This activity is exempt. You do not need to be authorised.", 
+            "internalComment" : "FLOW FOR THIS SECTION ENDS HERE"
+        }, 
+        {
+            "_id" : "lic548", 
+            "label" : "This activity is exempt. You do not need to be authorised.", 
+            "externalComment" : "", 
+            "internalComment" : "FLOW ENDS HERE."
+        }, 
+        {
+            "_id" : "lic549", 
+            "label" : "If you are providing loans to persons other than individuals, please click HERE to complete our Intermediary Questionnaire as you may need another authorisation.", 
+            "externalComment" : "", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "lic550", 
+            "label" : "You do not need to seek or apply for an additional authorisation.", 
+            "internalComment" : "FLOW FOR THIS SECTION ENDS HERE"
+        }, 
+        {
+            "_id" : "lic551", 
+            "label" : "This activity is exempted. You do not need to be authorised. ", 
+            "internalComment" : "FLOW ENDS HERE"
+        }, 
+        {
+            "_id" : "lic552", 
+            "label" : "This activity is exempt. You do not need to be authorised.", 
+            "externalComment" : "Please click HERE to see detailed advice", 
+            "internalComment" : "FLOW ENDS HERE"
+        }, 
+        {
+            "_id" : "lic553", 
+            "label" : "This activity is exempted. You will not need to be authorised. However, you will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "internalComment" : "This should stop the flow."
+        }, 
+        {
+            "_id" : "lic554", 
+            "label" : "Operating a peer to peer lending platform (Full Permission)"
+        }, 
+        {
+            "_id" : "lic555", 
+            "label" : "This activity is exempted. You do not need to be authorised. "
+        }, 
+        {
+            "_id" : "lic556", 
+            "label" : "This activity is exempted. You do not need to be authorised. "
+        }, 
+        {
+            "_id" : "lic557", 
+            "label" : "Provided that the person that you represent is authorised (and maintains its authorisation), this activity is exempted. You do not need to be authorised. ", 
+            "externalComment" : "Please click HERE to see more detailed advice.", 
+            "internalComment" : "This is where we preload a detailed piece of advice."
+        }, 
+        {
+            "_id" : "lic558", 
+            "label" : "This activity is exempt. Provided you comply with the (conditions), you will not need to be authorised.", 
+            "externalComment" : "Please click HERE to see more detailed advice.", 
+            "internalComment" : "FLOW ENDS HERE"
+        }, 
+        {
+            "_id" : "lic559", 
+            "label" : "Debt adjusting (Full Permission)"
+        }, 
+        {
+            "_id" : "lic560", 
+            "label" : "Debt counselling (Full Permission)"
+        }, 
+        {
+            "_id" : "lic561", 
+            "label" : "Debt Collecting (Full Permission)"
+        }, 
+        {
+            "_id" : "lic562", 
+            "label" : "Debt Administration (Full Permission)"
+        }, 
+        {
+            "_id" : "lic563", 
+            "label" : "Entering into a regulated consumer hire agreement as owner (Full Permission)", 
+            "internalComment" : "Check 60N(1) and 60N(2)"
+        }, 
+        {
+            "_id" : "lic564", 
+            "label" : "Entering into a regulated consumer hire agreement as owner (Limited Permission)", 
+            "internalComment" : "check ROA. from Credit Ready q 16"
+        }, 
+        {
+            "_id" : "lic565", 
+            "label" : "Providing credit references (Full Permission)", 
+            "internalComment" : "89B"
+        }, 
+        {
+            "_id" : "lic566", 
+            "label" : "Providing credit information services (Limited Permission)", 
+            "internalComment" : "89a  credit ready q 32"
+        }, 
+        {
+            "_id" : "lic567", 
+            "label" : "Providing credit information services (Full Permission)", 
+            "internalComment" : "89a  credit ready q 32"
+        }, 
+        {
+            "_id" : "lic568", 
+            "label" : "Entering into a regulated credit agreement as lender (Full Permission) OR Exercising, or having the right to exercise, the lenders’ rights and duties under a regulated credit agreement (Full Permission)", 
+            "internalComment" : "60B(2)"
+        }, 
+        {
+            "_id" : "lic569", 
+            "label" : "Entering into a regulated credit agreement as lender (Full Permission)", 
+            "internalComment" : "60B(1)"
+        }, 
+        {
+            "_id" : "lic570", 
+            "label" : "Entering into a regulated credit agreement as lender (Full Permission) OR Exercising, or having the right to exercise, the lenders’ rights and duties under a regulated credit agreement (Full Permission)", 
+            "internalComment" : "60B(2)"
+        }, 
+        {
+            "_id" : "lic571", 
+            "label" : "Entering into a regulated credit agreement as lender (Full Permission)", 
+            "internalComment" : "60B(1)"
+        }, 
+        {
+            "_id" : "lic572", 
+            "label" : "Entering into a regulated credit agreement as lender (Limited Permission)"
+        }, 
+        {
+            "_id" : "lic573", 
+            "label" : "Credit Broking (Full Permission)", 
+            "internalComment" : "credit ready q.19. ROA 36A"
+        }, 
+        {
+            "_id" : "lic574", 
+            "label" : "Credit Broking (Full Permission)"
+        }, 
+        {
+            "_id" : "lic575", 
+            "label" : "Credit Broking (Limited Permission)"
+        }
+    ], 
+    "advices" : [
+        {
+            "_id" : "adv1", 
+            "advice" : "<p>If you are only dealing with consumer clients on an exceptional basis, you will not need to be authorised ??</p>"
+        }, 
+        {
+            "_id" : "adv3", 
+            "advice" : "Provided that the person that you represent is authorised (and maintains its authorisation), this activity is exempted. You do not need to be authorised. Please click HERE to see more detailed advice."
+        }, 
+        {
+            "_id" : "adv4", 
+            "advice" : "You do not need to seek or apply for an additional authorisation.", 
+            "externalComment" : "Click HERE to download a more detailed advice.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv7", 
+            "advice" : "This activity is exempt. You do not need to be authorised.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv8", 
+            "advice" : "This activity is exempt. Provided you comply with the (conditions), you will not need to be authorised.", 
+            "internalComment" : "Please click HERE to download more detailed advice."
+        }, 
+        {
+            "_id" : "adv9", 
+            "advice" : "This activity is exempt. You do not need to be authorised.", 
+            "externalComment" : "Please click HERE to download more detailed advice.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv10", 
+            "advice" : "This activity is exempt. You do not need to be authorised.", 
+            "externalComment" : "Please click HERE to download more detailed advice.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv11", 
+            "advice" : "This activity is exempted. You will not need to be authorised. However, you will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "externalComment" : "In order for you to benefit from this exemption, multiple conditions apply. Please click HERE to download detailed advice.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv12", 
+            "advice" : "This activity is exempted. You will not need to be authorised. However, you will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "externalComment" : "In order for you to benefit from this exemption, multiple conditions apply. Please click HERE to download detailed advice.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv13", 
+            "advice" : "This activity is exempted. You do not need to be authorised. ", 
+            "internalComment" : "Please click HERE to download more detailed advice."
+        }, 
+        {
+            "_id" : "adv14", 
+            "advice" : "This activity is exempt. You do not need to be authorised. You will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "externalComment" : "Please click HERE to download more detailed advice.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv15", 
+            "advice" : "This activity is exempt. You do not need to be authorised. If your customers are ‘high net worth individuals’ you will need to make sure that you comply with the 'conditions' (link to conditions) and your customer will need to sign this declaration (link to declaration).", 
+            "externalComment" : "Please click HERE to download more detailed advice.", 
+            "internalComment" : ""
+        }, 
+        {
+            "_id" : "adv16", 
+            "advice" : "This questionnaire is relevant to you only if you have regular dealings with consumers. If your customers are companies and you think that you may be conducting a financial activity, we recommend that you take the Intermediary Questionnaire to confirm whether you should be applying for a financial services authorisation. Click HERE to take the questionnaire now.", 
+            "internalComment" : "THIS SHOULD LEAD TO THE INTERMEDIARY QUESTIONNAIRE"
+        }, 
+        {
+            "_id" : "adv18", 
+            "advice" : "This activity is exempt. Please click HERE to download legal advice."
+        }, 
+        {
+            "_id" : "adv19", 
+            "advice" : "This activity is exempt. Please click HERE to download legal advice."
+        }, 
+        {
+            "_id" : "adv20", 
+            "advice" : "This activity is exempt. Please click HERE to download legal advice.", 
+            "externalComment" : "This exemption is often referred to as the 'investment property' or 'buy to let mortgage' exemption."
+        }, 
+        {
+            "_id" : "adv38", 
+            "advice" : "This activity is exempt. You do not need to be authorised.", 
+            "externalComment" : "Please click HERE to download a more detailed advice."
+        }, 
+        {
+            "_id" : "adv39", 
+            "advice" : "This activity is exempt. You do not need to be authorised.", 
+            "externalComment" : "Please click HERE to download advice."
+        }
+    ], 
+    "edges" : [
+        {
+            "_id" : "1961", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que834"
+        }, 
+        {
+            "_id" : "1963", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que831"
+        }, 
+        {
+            "_id" : "1964", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que830"
+        }, 
+        {
+            "_id" : "1965", 
+            "label" : "yes", 
+            "from" : "que830", 
+            "to" : "mul775", 
+            "internalComment" : "NOTE: THIS SHOULD LEAD TO A NEW FLOW FOR NOT FOR PROFIT"
+        }, 
+        {
+            "_id" : "1966", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que847"
+        }, 
+        {
+            "_id" : "1968", 
+            "label" : "no", 
+            "from" : "que833", 
+            "to" : "mul765"
+        }, 
+        {
+            "_id" : "1970", 
+            "label" : "no", 
+            "from" : "que830", 
+            "to" : "mul766"
+        }, 
+        {
+            "_id" : "1971", 
+            "label" : "yes", 
+            "from" : "que831", 
+            "to" : "mul767"
+        }, 
+        {
+            "_id" : "1973", 
+            "label" : "yes", 
+            "from" : "que834", 
+            "to" : "mul768"
+        }, 
+        {
+            "_id" : "1975", 
+            "label" : "yes", 
+            "from" : "que835", 
+            "to" : "lic546"
+        }, 
+        {
+            "_id" : "1977", 
+            "label" : "yes", 
+            "from" : "que836", 
+            "to" : "adv20"
+        }, 
+        {
+            "_id" : "1980", 
+            "label" : "yes", 
+            "from" : "que840", 
+            "to" : "que841"
+        }, 
+        {
+            "_id" : "1981", 
+            "label" : "no", 
+            "from" : "que840", 
+            "to" : "mul771"
+        }, 
+        {
+            "_id" : "1982", 
+            "label" : "yes", 
+            "from" : "que841", 
+            "to" : "adv13"
+        }, 
+        {
+            "_id" : "1984", 
+            "label" : "yes", 
+            "from" : "que842", 
+            "to" : "que843"
+        }, 
+        {
+            "_id" : "1986", 
+            "label" : "yes", 
+            "from" : "que843", 
+            "to" : "adv10"
+        }, 
+        {
+            "_id" : "1988", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que828"
+        }, 
+        {
+            "_id" : "1989", 
+            "label" : "yes", 
+            "from" : "que846", 
+            "to" : "lic554"
+        }, 
+        {
+            "_id" : "1990", 
+            "label" : "no", 
+            "from" : "que846", 
+            "to" : "mul774"
+        }, 
+        {
+            "_id" : "1991", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que848"
+        }, 
+        {
+            "_id" : "1992", 
+            "label" : "yes", 
+            "from" : "que848", 
+            "to" : "que845"
+        }, 
+        {
+            "_id" : "1993", 
+            "label" : "no", 
+            "from" : "que848", 
+            "to" : "mul776"
+        }, 
+        {
+            "_id" : "1995", 
+            "label" : "yes", 
+            "from" : "que845", 
+            "to" : "adv14"
+        }, 
+        {
+            "_id" : "1997", 
+            "label" : "yes", 
+            "from" : "que847", 
+            "to" : "adv3"
+        }, 
+        {
+            "_id" : "2004", 
+            "label" : "yes", 
+            "from" : "que832", 
+            "to" : "adv12"
+        }, 
+        {
+            "_id" : "2005", 
+            "label" : "yes", 
+            "from" : "que837", 
+            "to" : "adv19"
+        }, 
+        {
+            "_id" : "2006", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que846"
+        }, 
+        {
+            "_id" : "2007", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que850"
+        }, 
+        {
+            "_id" : "2008", 
+            "label" : "yes", 
+            "from" : "que850", 
+            "to" : "lic559"
+        }, 
+        {
+            "_id" : "2009", 
+            "label" : "no", 
+            "from" : "que850", 
+            "to" : "mul769"
+        }, 
+        {
+            "_id" : "2010", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que852"
+        }, 
+        {
+            "_id" : "2011", 
+            "label" : "yes", 
+            "from" : "que852", 
+            "to" : "lic560"
+        }, 
+        {
+            "_id" : "2012", 
+            "label" : "no", 
+            "from" : "que852", 
+            "to" : "mul773"
+        }, 
+        {
+            "_id" : "2013", 
+            "label" : ",", 
+            "from" : "mul762", 
+            "to" : "que853"
+        }, 
+        {
+            "_id" : "2014", 
+            "label" : "yes", 
+            "from" : "que853", 
+            "to" : "lic561"
+        }, 
+        {
+            "_id" : "2015", 
+            "label" : "no", 
+            "from" : "que853", 
+            "to" : "mul779"
+        }, 
+        {
+            "_id" : "2016", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que854"
+        }, 
+        {
+            "_id" : "2017", 
+            "label" : "yes", 
+            "from" : "que854", 
+            "to" : "lic562"
+        }, 
+        {
+            "_id" : "2018", 
+            "label" : "no", 
+            "from" : "que854", 
+            "to" : "mul781"
+        }, 
+        {
+            "_id" : "2019", 
+            "label" : "yes", 
+            "from" : "que849", 
+            "to" : "adv15"
+        }, 
+        {
+            "_id" : "2020", 
+            "label" : "yes", 
+            "from" : "que855", 
+            "to" : "lic563"
+        }, 
+        {
+            "_id" : "2021", 
+            "label" : "no", 
+            "from" : "que855", 
+            "to" : "lic564"
+        }, 
+        {
+            "_id" : "2022", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que856"
+        }, 
+        {
+            "_id" : "2023", 
+            "label" : "yes", 
+            "from" : "que856", 
+            "to" : "lic565"
+        }, 
+        {
+            "_id" : "2024", 
+            "label" : "no", 
+            "from" : "que856", 
+            "to" : "que857"
+        }, 
+        {
+            "_id" : "2025", 
+            "label" : "yes", 
+            "from" : "que857", 
+            "to" : "que858"
+        }, 
+        {
+            "_id" : "2026", 
+            "label" : "no", 
+            "from" : "que857", 
+            "to" : "mul777"
+        }, 
+        {
+            "_id" : "2027", 
+            "label" : "yes", 
+            "from" : "que858", 
+            "to" : "lic566"
+        }, 
+        {
+            "_id" : "2028", 
+            "label" : "no", 
+            "from" : "que858", 
+            "to" : "lic567"
+        }, 
+        {
+            "_id" : "2029", 
+            "label" : "yes", 
+            "from" : "que828", 
+            "to" : "mul780"
+        }, 
+        {
+            "_id" : "2030", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que1020"
+        }, 
+        {
+            "_id" : "2031", 
+            "label" : "yes", 
+            "from" : "que838", 
+            "to" : "adv4"
+        }, 
+        {
+            "_id" : "2032", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que833"
+        }, 
+        {
+            "_id" : "2033", 
+            "label" : "yes", 
+            "from" : "que829", 
+            "to" : "adv8"
+        }, 
+        {
+            "_id" : "2034", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que832"
+        }, 
+        {
+            "_id" : "2035", 
+            "label" : "no", 
+            "from" : "que842", 
+            "to" : "mul784"
+        }, 
+        {
+            "_id" : "2036", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que837"
+        }, 
+        {
+            "_id" : "2037", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que836"
+        }, 
+        {
+            "_id" : "2039", 
+            "label" : "yes", 
+            "from" : "que859", 
+            "to" : "que860"
+        }, 
+        {
+            "_id" : "2041", 
+            "label" : "no", 
+            "from" : "que859", 
+            "to" : "lic568"
+        }, 
+        {
+            "_id" : "2042", 
+            "label" : "yes", 
+            "from" : "que860", 
+            "to" : "lic570"
+        }, 
+        {
+            "_id" : "2044", 
+            "label" : "no", 
+            "from" : "que860", 
+            "to" : "lic572"
+        }, 
+        {
+            "_id" : "2045", 
+            "label" : ".", 
+            "from" : "mul762", 
+            "to" : "que861"
+        }, 
+        {
+            "_id" : "2046", 
+            "label" : "yes", 
+            "from" : "que861", 
+            "to" : "mul786"
+        }, 
+        {
+            "_id" : "2047", 
+            "label" : "yes", 
+            "from" : "que862", 
+            "to" : "lic573"
+        }, 
+        {
+            "_id" : "2048", 
+            "label" : "no", 
+            "from" : "que861", 
+            "to" : "mul785"
+        }, 
+        {
+            "_id" : "2049", 
+            "label" : ".", 
+            "from" : "mul786", 
+            "to" : "que862"
+        }, 
+        {
+            "_id" : "2050", 
+            "label" : "no", 
+            "from" : "que862", 
+            "to" : "mul787"
+        }, 
+        {
+            "_id" : "2051", 
+            "label" : ".", 
+            "from" : "mul786", 
+            "to" : "que863"
+        }, 
+        {
+            "_id" : "2052", 
+            "label" : "yes", 
+            "from" : "que863", 
+            "to" : "mul792"
+        }, 
+        {
+            "_id" : "2053", 
+            "label" : ".", 
+            "from" : "mul786", 
+            "to" : "que864"
+        }, 
+        {
+            "_id" : "2054", 
+            "label" : "yes", 
+            "from" : "que864", 
+            "to" : "lic575"
+        }, 
+        {
+            "_id" : "2055", 
+            "label" : "no", 
+            "from" : "que864", 
+            "to" : "mul791"
+        }, 
+        {
+            "_id" : "2134", 
+            "label" : "no", 
+            "from" : "que831", 
+            "to" : "adv1"
+        }, 
+        {
+            "_id" : "2230", 
+            "label" : "no", 
+            "from" : "que847", 
+            "to" : "mul778"
+        }, 
+        {
+            "_id" : "2231", 
+            "label" : "no", 
+            "from" : "que838", 
+            "to" : "mul782"
+        }, 
+        {
+            "_id" : "2423", 
+            "label" : "no", 
+            "from" : "que828", 
+            "to" : "mul789"
+        }, 
+        {
+            "_id" : "2425", 
+            "label" : "no", 
+            "from" : "que829", 
+            "to" : "mul783"
+        }, 
+        {
+            "_id" : "2427", 
+            "label" : "yes", 
+            "from" : "que844", 
+            "to" : "adv9"
+        }, 
+        {
+            "_id" : "2429", 
+            "label" : "no", 
+            "from" : "que843", 
+            "to" : "que844"
+        }, 
+        {
+            "_id" : "2430", 
+            "label" : "no", 
+            "from" : "que844", 
+            "to" : "mul790"
+        }, 
+        {
+            "_id" : "2431", 
+            "label" : "yes", 
+            "from" : "que833", 
+            "to" : "adv11"
+        }, 
+        {
+            "_id" : "2432", 
+            "label" : "no", 
+            "from" : "que832", 
+            "to" : "mul763"
+        }, 
+        {
+            "_id" : "2433", 
+            "label" : "no", 
+            "from" : "que841", 
+            "to" : "mul772"
+        }, 
+        {
+            "_id" : "2434", 
+            "label" : "no", 
+            "from" : "que845", 
+            "to" : "que849"
+        }, 
+        {
+            "_id" : "2435", 
+            "label" : "no", 
+            "from" : "que849", 
+            "to" : "que855"
+        }, 
+        {
+            "_id" : "2436", 
+            "label" : "no", 
+            "from" : "que863", 
+            "to" : "lic574"
+        }, 
+        {
+            "_id" : "2437", 
+            "label" : "no", 
+            "from" : "que834", 
+            "to" : "adv16"
+        }, 
+        {
+            "_id" : "2443", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que838"
+        }, 
+        {
+            "_id" : "2444", 
+            "label" : "yes", 
+            "from" : "que1020", 
+            "to" : "adv18"
+        }, 
+        {
+            "_id" : "2445", 
+            "label" : "no", 
+            "from" : "que1020", 
+            "to" : "mul788"
+        }, 
+        {
+            "_id" : "2447", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que840"
+        }, 
+        {
+            "_id" : "2448", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que839"
+        }, 
+        {
+            "_id" : "2449", 
+            "label" : "no", 
+            "from" : "que837", 
+            "to" : "mul764"
+        }, 
+        {
+            "_id" : "2450", 
+            "label" : "no", 
+            "from" : "que836", 
+            "to" : "mul770"
+        }, 
+        {
+            "_id" : "2452", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que842"
+        }, 
+        {
+            "_id" : "2453", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que1060"
+        }, 
+        {
+            "_id" : "2454", 
+            "label" : "yes", 
+            "from" : "que839", 
+            "to" : "que1058"
+        }, 
+        {
+            "_id" : "2455", 
+            "label" : "no", 
+            "from" : "que839", 
+            "to" : "mul793"
+        }, 
+        {
+            "_id" : "2456", 
+            "label" : "yes", 
+            "from" : "que1058", 
+            "to" : "adv7"
+        }, 
+        {
+            "_id" : "2457", 
+            "label" : "no", 
+            "from" : "que1058", 
+            "to" : "mul795"
+        }, 
+        {
+            "_id" : "2458", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que1062"
+        }, 
+        {
+            "_id" : "2459", 
+            "label" : "yes", 
+            "from" : "que1060", 
+            "to" : "que1061"
+        }, 
+        {
+            "_id" : "2460", 
+            "label" : "yes", 
+            "from" : "que1061", 
+            "to" : "adv38"
+        }, 
+        {
+            "_id" : "2461", 
+            "label" : "no", 
+            "from" : "que1061", 
+            "to" : "mul794"
+        }, 
+        {
+            "_id" : "2463", 
+            "label" : "no", 
+            "from" : "que1060", 
+            "to" : "mul796"
+        }, 
+        {
+            "_id" : "2464", 
+            "label" : "yes", 
+            "from" : "que1062", 
+            "to" : "adv39"
+        }, 
+        {
+            "_id" : "2465", 
+            "label" : ".", 
+            "from" : "mul780", 
+            "to" : "que859"
+        }, 
+        {
+            "_id" : "2466", 
+            "label" : "no", 
+            "from" : "que1062", 
+            "to" : "mul797"
+        }
+    ]
+}
